@@ -17,19 +17,19 @@ const Projects = () => {
       <h2>Projects</h2>
       <div>
         <a href='https://dreamwake.ai' target='_blank' rel='noreferrer'><h3>DreamWake AI</h3></a>
-        <p>Full Stack MERN app integrating AI with dreams.</p>
+        <p>Full Stack MERN app integrating AI with dreams.<a href='https://github.com/emiliomarcos/dreamwake-ai' target='_blank' rel='noreferrer'>   Code</a></p>
       </div>
       <div>
         <a href='https://thebigwave.surf' target='_blank' rel='noreferrer'><h3>The Big Wave</h3></a>
-        <p>Front End React app to explore surfing spots.</p>
+        <p>Front End React app to explore surfing spots.<a href='https://github.com/emiliomarcos/the-big-wave' target='_blank' rel='noreferrer'>   Code</a></p>
       </div>
       <div>
         <a href='http://www.homie.help' target='_blank' rel='noreferrer'><h3>Homie</h3></a>
-        <p>Team Full Stack Ruby on Rails home products helper.</p>
+        <p>Team Full Stack Ruby on Rails home products helper.<a href='https://github.com/Lou951/HOMIE' target='_blank' rel='noreferrer'>   Code</a></p>
       </div>
       <div>
         <a href='https://islands-r-us.herokuapp.com/' target='_blank' rel='noreferrer'><h3>Islands R Us</h3></a>
-        <p>Team Full Stack Ruby on Rails airbnb clone.</p>
+        <p>Team Full Stack Ruby on Rails airbnb clone.<a href='https://github.com/BirchAD/Islands-R-Us' target='_blank' rel='noreferrer'>   Code</a></p>
       </div>
     </motion.div>
   );
