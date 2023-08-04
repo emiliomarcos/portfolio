@@ -16,12 +16,20 @@ const Projects = () => {
     >
       <h2>Projects</h2>
       <div>
-        <h3>Project 1</h3>
-        <p>Description of Project 1</p>
+        <h3>DreamWake AI</h3>
+        <p>Description of DreamWake AI</p>
       </div>
       <div>
-        <h3>Project 2</h3>
-        <p>Description of Project 2</p>
+        <h3>The Big Wave</h3>
+        <p>Description of The Big Wave</p>
+      </div>
+      <div>
+        <h3>Homie</h3>
+        <p>Description of Homie</p>
+      </div>
+      <div>
+        <h3>Islands R Us</h3>
+        <p>Description of Islands R Us</p>
       </div>
     </motion.div>
   );

@@ -14,8 +14,8 @@ const Home = () => {
       variants={variants}
       transition={{ type: 'spring', stiffness: 120 }}
     >
-      <h1>My Name</h1>
-      <p>Welcome to my portfolio. Scroll down to learn more about me and see my work!</p>
+      <h2>Emilio Marcos</h2>
+      <p>I am a full stack developer with an inner drive to build and learn as much as I can. I mainly value the product, user experience, and efficiency.</p>
     </motion.div>
   );
 }

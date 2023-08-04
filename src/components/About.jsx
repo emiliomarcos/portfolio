@@ -14,8 +14,9 @@ const About = () => {
       variants={variants}
       transition={{ type: 'spring', stiffness: 120 }}
     >
-      <h2>About Me</h2>
-      <p>I am a web developer with a passion for creating engaging and efficient applications. I have completed CS50 and a web development bootcamp. Technologies I love include React, Node.js, and Python.</p>
+      <h2>Favorite Technologies</h2>
+      <p>Web Apps: JavaScript with React, Node, Express, and MongoDB</p>
+      <p>Other: Python</p>
     </motion.div>
   );
 }
