@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 
-const Certifications = () => {
+export default function Certifications() {
   const variants = {
     hidden: { opacity: 0, x: '100vw' },
     visible: { opacity: 1, x: 0 }
@@ -20,5 +20,3 @@ const Certifications = () => {
     </motion.div>
   );
 }
-
-export default Certifications;

@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 
-const Projects = () => {
+export default function Projects() {
   const variants = {
     hidden: { opacity: 0, y: '100vh' },
     visible: { opacity: 1, y: 0 }
@@ -34,5 +34,3 @@ const Projects = () => {
     </motion.div>
   );
 }
-
-export default Projects;

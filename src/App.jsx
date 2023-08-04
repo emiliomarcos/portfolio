@@ -2,7 +2,7 @@
 import { Home, About, Projects, Certifications } from "./components";
 import './App.css';
 
-function App() {
+export default function App() {
   return (
     <div>
       {/* <nav>
@@ -21,5 +21,3 @@ function App() {
     </div>
   );
 }
-
-export default App;

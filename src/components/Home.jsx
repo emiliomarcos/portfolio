@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 
-const Home = () => {
+export default function Home() {
   const variants = {
     hidden: { opacity: 0, y: '-100vh' },
     visible: { opacity: 1, y: 0 }
@@ -19,5 +19,3 @@ const Home = () => {
     </motion.div>
   );
 }
-
-export default Home;
