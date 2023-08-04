@@ -15,8 +15,8 @@ const Certifications = () => {
       transition={{ type: 'spring', stiffness: 120 }}
     >
       <h2>Certifications</h2>
-      <p>CS50: Introduction to Computer Science</p>
-      <p>Web Development Bootcamp</p>
+      <p>Le Wagon Web Development Bootcamp</p>
+      <p>HarvardX CS50: Introduction to Computer Science</p>
     </motion.div>
   );
 }

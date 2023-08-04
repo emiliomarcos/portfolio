@@ -8,7 +8,7 @@ const Projects = () => {
 
   return (
     <motion.div
-      id="projects"
+      id='projects'
       initial='hidden'
       animate='visible'
       variants={variants}
@@ -16,20 +16,20 @@ const Projects = () => {
     >
       <h2>Projects</h2>
       <div>
-        <h3>DreamWake AI</h3>
-        <p>Description of DreamWake AI</p>
+        <a href='https://dreamwake.ai'><h3>DreamWake AI</h3></a>
+        <p>Full Stack MERN app integrating AI with dreams.</p>
       </div>
       <div>
-        <h3>The Big Wave</h3>
-        <p>Description of The Big Wave</p>
+        <a href='https://thebigwave.surf'><h3>The Big Wave</h3></a>
+        <p>Front End React app to explore surfing spots.</p>
       </div>
       <div>
-        <h3>Homie</h3>
-        <p>Description of Homie</p>
+        <a href='www.homie.help'><h3>Homie</h3></a>
+        <p>Team Full Stack Ruby on Rails home products helper.</p>
       </div>
       <div>
-        <h3>Islands R Us</h3>
-        <p>Description of Islands R Us</p>
+        <a href='https://islands-r-us.herokuapp.com/'><h3>Islands R Us</h3></a>
+        <p>Team Full Stack Ruby on Rails airbnb clone.</p>
       </div>
     </motion.div>
   );

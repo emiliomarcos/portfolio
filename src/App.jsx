@@ -12,8 +12,11 @@ function App() {
         <Link to="certifications" smooth={true} duration={500}>Certifications</Link>
       </nav> */}
       <Home />
+      <br></br>
       <About />
+      <br></br>
       <Projects />
+      <br></br>
       <Certifications />
     </div>
   );
