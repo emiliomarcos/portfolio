@@ -15,8 +15,7 @@ export default function About() {
       transition={{ type: 'spring', stiffness: 120 }}
     >
       <h2>Favorite Technologies</h2>
-      <p>Web Apps: JavaScript with React, Node, Express, and MongoDB</p>
-      <p>Other: Python</p>
+      <p>React, Node, Express, and MongoDB</p>
     </motion.div>
   );
 }
