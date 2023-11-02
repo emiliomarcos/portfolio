@@ -2,35 +2,35 @@ const projects = [
   {
     name: 'Project name',
     description: 'Project description',
-    link: 'Project link',
+    link: 'https://dreamwake.ai',
     image: 'Project image',
     technologies: 'Project technologies'
   },
   {
     name: 'Project name',
     description: 'Project description',
-    link: 'Project link',
+    link: 'https://thebigwave.surf',
     image: 'Project image',
     technologies: 'Project technologies'
   },
   {
     name: 'Project name',
     description: 'Project description',
-    link: 'Project link',
+    link: 'https://yoving.com',
     image: 'Project image',
     technologies: 'Project technologies'
   },
   {
     name: 'Project name',
     description: 'Project description',
-    link: 'Project link',
+    link: 'http://www.homie.help',
     image: 'Project image',
     technologies: 'Project technologies'
   },
   {
     name: 'Project name',
     description: 'Project description',
-    link: 'Project link',
+    link: 'https://islands-r-us.herokuapp.com',
     image: 'Project image',
     technologies: 'Project technologies'
   }

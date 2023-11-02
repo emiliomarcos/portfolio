@@ -34,7 +34,7 @@ export default function Projects() {
         <p>Team Full Stack Ruby on Rails home products helper.<a className="github-icon" href='https://github.com/Lou951/HOMIE' target='_blank' rel='noreferrer'><FontAwesomeIcon icon={faGithub} size="xl" /></a></p>
       </div>
       <div>
-        <a href='https://islands-r-us.herokuapp.com/' target='_blank' rel='noreferrer'><h3>Islands R Us</h3></a>
+        <a href='https://islands-r-us.herokuapp.com' target='_blank' rel='noreferrer'><h3>Islands R Us</h3></a>
         <p>Team Full Stack Ruby on Rails airbnb clone.<a className="github-icon" href='https://github.com/BirchAD/Islands-R-Us' target='_blank' rel='noreferrer'><FontAwesomeIcon icon={faGithub} size="xl" /></a></p>
       </div>
     </motion.div>
