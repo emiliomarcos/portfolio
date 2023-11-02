@@ -5,7 +5,7 @@ const projects = [
     link: 'https://dreamwake.ai',
     code: 'https://github.com/emiliomarcos/dreamwake-ai',
     image: 'Project image',
-    technologies: 'Project technologies'
+    technologies: 'React, Node, Express, MongoDB, OpenAI'
   },
   {
     name: 'The Big Wave',
@@ -13,7 +13,7 @@ const projects = [
     link: 'https://thebigwave.surf',
     code: 'https://github.com/emiliomarcos/the-big-wave',
     image: 'Project image',
-    technologies: 'Project technologies'
+    technologies: 'React'
   },
   {
     name: 'Yoving',
@@ -21,7 +21,7 @@ const projects = [
     link: 'https://yoving.com',
     code: 'https://github.com/emiliomarcos/yoving',
     image: 'Project image',
-    technologies: 'Project technologies'
+    technologies: 'React, Node, Express, OpenAI'
   },
   {
     name: 'Homie',
@@ -29,7 +29,7 @@ const projects = [
     link: 'http://www.homie.help',
     code: 'https://github.com/Lou951/HOMIE',
     image: 'Project image',
-    technologies: 'Project technologies'
+    technologies: 'Ruby on Rails, PosgreSQL'
   },
   {
     name: 'Islands R Us',
@@ -37,7 +37,7 @@ const projects = [
     link: 'https://islands-r-us.herokuapp.com',
     code: 'https://github.com/BirchAD/Islands-R-Us',
     image: 'Project image',
-    technologies: 'Project technologies'
+    technologies: 'Ruby on Rails, PosgreSQL'
   }
 ]
 
