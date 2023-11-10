@@ -8,7 +8,7 @@ export default function Project({ name, description, link, code, image, technolo
       <a href={link} target='_blank' rel='noreferrer'><h3>{name}</h3></a>
       <p>{description}<a className="github-icon" href={code} target='_blank' rel='noreferrer'><FontAwesomeIcon icon={faGithub} size="xl" /></a></p>
       <img className='project-image' src={image} />
-      <p>{technologies}</p>
+      <p>Technologies: {technologies}</p>
     </div>
   )
 }
