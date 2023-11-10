@@ -9,6 +9,10 @@
   margin-left: 0.5rem;
 }
 
+.project {
+  margin-bottom: 5rem;
+}
+
 .project-image {
   width: 70%;
   height: auto;
