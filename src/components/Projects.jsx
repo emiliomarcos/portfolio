@@ -1,3 +1,5 @@
+import Project from './Project';
+import projectsData from '../data/Projects';
 import { motion } from 'framer-motion';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
@@ -7,6 +9,8 @@ export default function Projects() {
     hidden: { opacity: 0, y: '100vh' },
     visible: { opacity: 1, y: 0 }
   };
+
+  const projects = projectsData.map(project => <Project key={project.name} />)
 
   return (
     <motion.div

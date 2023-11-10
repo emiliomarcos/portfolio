@@ -4,7 +4,7 @@ import yoving from '../assets/yoving.png';
 import homie from '../assets/homie.png';
 import islandsrus from '../assets/islandsrus.png';
 
-const projects = [
+const projectsData = [
   {
     name: 'DreamWake AI',
     description: 'Full Stack MERN app integrating AI with dreams.',
@@ -47,4 +47,4 @@ const projects = [
   }
 ]
 
-export default projects;
+export default projectsData;
