@@ -10,7 +10,7 @@ export default function Projects() {
     visible: { opacity: 1, y: 0 }
   };
 
-  const projects = projectsData.map(project => <Project key={project.name} />)
+  const projects = projectsData.map(project => <Project key={project.name} name={project.name} description={project.description} image={project.image} technologies={project.technologies} link={project.link} code={project.code} />)
 
   return (
     <motion.div
@@ -21,7 +21,8 @@ export default function Projects() {
       transition={{ type: 'spring', stiffness: 120 }}
     >
       <h2>Projects</h2>
-      <div>
+      {projects}
+      {/* <div>
         <a href='https://dreamwake.ai' target='_blank' rel='noreferrer'><h3>DreamWake AI 💭</h3></a>
         <p>Full Stack MERN app integrating AI with dreams.<a className="github-icon" href='https://github.com/emiliomarcos/dreamwake-ai' target='_blank' rel='noreferrer'><FontAwesomeIcon icon={faGithub} size="xl" /></a></p>
       </div>
@@ -40,7 +41,7 @@ export default function Projects() {
       <div>
         <a href='https://islands-r-us.herokuapp.com' target='_blank' rel='noreferrer'><h3>Islands R Us 🏝</h3></a>
         <p>Team Full Stack Ruby on Rails airbnb clone.<a className="github-icon" href='https://github.com/BirchAD/Islands-R-Us' target='_blank' rel='noreferrer'><FontAwesomeIcon icon={faGithub} size="xl" /></a></p>
-      </div>
+      </div> */}
     </motion.div>
   );
 }
