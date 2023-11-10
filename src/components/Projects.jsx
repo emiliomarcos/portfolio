@@ -1,8 +1,6 @@
 import Project from './Project';
 import projectsData from '../data/Projects';
 import { motion } from 'framer-motion';
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 export default function Projects() {
   const variants = {
