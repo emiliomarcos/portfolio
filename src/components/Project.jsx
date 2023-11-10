@@ -3,7 +3,7 @@ export default function Project({ name, description, link, code, image, technolo
     <>
       <h2>{name}</h2>
       <p>{description}</p>
-      <img src={image}/>
+      <img className='project-image' src={image} />
       <p>{technologies}</p>
       <p>{link}</p>
       <p>{code}</p>
