@@ -1,10 +1,16 @@
+import dreamwakeai from '../assets/dreamwakeai.png';
+import thebigwave from '../assets/thebigwave.png';
+import yoving from '../assets/yoving.png';
+import homie from '../assets/homie.png';
+import islandsrus from '../assets/islandsrus.png';
+
 const projects = [
   {
     name: 'DreamWake AI',
     description: 'Full Stack MERN app integrating AI with dreams.',
     link: 'https://dreamwake.ai',
     code: 'https://github.com/emiliomarcos/dreamwake-ai',
-    image: 'Project image',
+    image: dreamwakeai,
     technologies: 'React, Node, Express, MongoDB, OpenAI'
   },
   {
@@ -12,7 +18,7 @@ const projects = [
     description: 'Front End React app to explore surfing spots.',
     link: 'https://thebigwave.surf',
     code: 'https://github.com/emiliomarcos/the-big-wave',
-    image: 'Project image',
+    image: thebigwave,
     technologies: 'React'
   },
   {
@@ -20,7 +26,7 @@ const projects = [
     description: 'Work in Progress MERN travel experiences AI assistant.',
     link: 'https://yoving.com',
     code: 'https://github.com/emiliomarcos/yoving',
-    image: 'Project image',
+    image: yoving,
     technologies: 'React, Node, Express, OpenAI'
   },
   {
@@ -28,7 +34,7 @@ const projects = [
     description: 'Team Full Stack Ruby on Rails home products helper.',
     link: 'http://www.homie.help',
     code: 'https://github.com/Lou951/HOMIE',
-    image: 'Project image',
+    image: homie,
     technologies: 'Ruby on Rails, PosgreSQL'
   },
   {
@@ -36,7 +42,7 @@ const projects = [
     description: 'Team Full Stack Ruby on Rails airbnb clone.',
     link: 'https://islands-r-us.herokuapp.com',
     code: 'https://github.com/BirchAD/Islands-R-Us',
-    image: 'Project image',
+    image: islandsrus,
     technologies: 'Ruby on Rails, PosgreSQL'
   }
 ]
