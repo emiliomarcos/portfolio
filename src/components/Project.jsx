@@ -1,3 +1,4 @@
+// eslint-disable-next-line react/prop-types
 export default function Project({ name, description, link, code, image, technologies }) {
   return (
     <>
